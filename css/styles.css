@@ -88,11 +88,14 @@ nav a:hover {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    padding-bottom: 70px;
 }
 
 .locations h1 {
     display: inline-flex;
     background-color: transparent;
+    margin-bottom: 300px;
+
 }
 
 .locations-parent {
