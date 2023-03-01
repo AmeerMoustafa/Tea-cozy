@@ -122,16 +122,21 @@ nav a:hover {
 }
 
 
-footer {
+.contact {
     display: flex;
     flex-flow: wrap;
 }
 
-.footer-child {
+.contact-child {
     margin: 0 auto;
     line-height: 5px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-content: center;
+}
+
+footer {
+    display: inline-flex;
+    text-align: left;
 }
