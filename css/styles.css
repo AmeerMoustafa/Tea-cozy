@@ -34,6 +34,7 @@ nav a:hover {
 }
 
 .mission-container {
+    width: 1200px;
     margin: 0 auto;
     position: relative;
     display: flex;
@@ -118,4 +119,19 @@ nav a:hover {
     width: 300px;
     opacity: 1;
     margin: auto 40px;
+}
+
+
+footer {
+    display: flex;
+    flex-flow: wrap;
+}
+
+.footer-child {
+    margin: 0 auto;
+    line-height: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
 }
