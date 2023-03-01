@@ -34,6 +34,7 @@ nav a:hover {
 }
 
 .mission-container {
+    top: 60px;
     position: relative;
     display: flex;
     justify-content: center;
@@ -41,9 +42,36 @@ nav a:hover {
 }
 
 .mission-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
     width: 1200px;
     position: absolute;
     top: 250px;
-    text-align: center;
 }
 
+.monthly-tea-container {
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+    
+.tea-images-parent {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.tea-images {
+    text-align: center;
+    line-height: 10px;
+}
+
+.tea-images img {
+    max-height: 200px;
+    max-width: 300px;
+}
