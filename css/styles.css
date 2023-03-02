@@ -50,7 +50,7 @@ nav a:hover {
 
 /**Mission Statement**/
 
-.mission-container {
+#mission-container {
     background-image: url("./images/img-mission-background.jpg");
     width: 95%;
     margin: 0 auto;
@@ -80,7 +80,7 @@ nav a:hover {
 
 /**Monthly Tea**/
 
-.monthly-tea-container {
+#monthly-tea-container {
     margin: 0 auto;
     position: relative;
     top: 70px;
@@ -112,7 +112,7 @@ nav a:hover {
 
 /**Locations**/
 
-.locations {
+#locations {
     position: relative;
     top: 60px;
     background-image: url(./images/img-locations-background.jpg);
@@ -126,7 +126,7 @@ nav a:hover {
     padding-bottom: 70px;
 }
 
-.locations h2 {
+#locations h2 {
     display: inline-flex;
     background-color: transparent;
     margin-bottom: 300px;
